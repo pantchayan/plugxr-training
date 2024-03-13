@@ -1,0 +1,19 @@
+Problem Description :
+
+You need to write JS program to
+
+1. Create a Storage Object names 'ticketsDB' in Browser's localstorage.
+
+```
+The localStorage read-only property of the window interface allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions. 
+```
+
+2. Add a new ticket to Storage Object of name 'ticketsDB' in Browser's localstorage.
+
+Hint: 
+
+Let's suppose you are maintaining an array 'ticketsArr' to keep track of data of tickets that are being added. 
+
+You need to make sure that whenever the Input is made in the modal, 
+1. ticketsArr is updated with the new ticket information. { ticketTask, ticketColor, ticketID: id }
+2. And then ticketsArr is used as a value and Storage Object ticketsDB is updated with it.

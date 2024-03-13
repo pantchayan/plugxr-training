@@ -1,0 +1,13 @@
+Problem Description:
+Write a JavaScript program in the script.js file to:
+
+Create all the ticket's UI, based on the data present in ticketsDB in localstorage
+
+This question is a succession to the prev question.
+
+You already have the boilerplate code that handles the creation of a ticket in UI, and updates the ticket data of ticketsDB in the localstorage.
+you need to add new code to the area marked in the script.js file to ensure that a ticket is created for all the data present in ticketsDB. 
+
+Hint:
+You need to store the values in Storage Object in an array, with the help of getItem() and JSON.parse() methods.
+For each value (object) in the array, create a corresponding ticket in the UI.
