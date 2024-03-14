@@ -1,0 +1,13 @@
+Write a JavaScript program in the script.js file to:
+
+Part 1:
+
+Filter out the tickets based on the color id whenever User picks a color from the toolbar section. 
+Additionally, you can add a button to toolbar to show tickets of all the colors. 
+
+
+Part 2:
+
+Add the feature of changing the color id of a ticket after creation. (By clicking on the color)
+
+This change is color id should also reflect upon the localstorage object. 

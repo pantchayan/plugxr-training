@@ -1,0 +1,20 @@
+Write a JavaScript program in the script.js file to:
+
+Part 1:
+
+Delete tickets from the UI, 
+in this the delete button should activate the delete state 
+and whenever a ticket is clicked upon while in delete state => the ticket should get deleted automatically.
+
+You can change the color of delete button to indicate whether delete state is active or inactive. (or add text right next to button about the same)
+
+
+
+Part 2:
+
+To update the ticketsArr and ticketsDB Storage Object in the localstorage.
+
+
+Hint:
+You need to write a function first to get the index of the ticket being deleted by matching the ids,
+then use this index to delete the item from the ticketArr and then update the ticketsDB with the updated array after stringifying it.
